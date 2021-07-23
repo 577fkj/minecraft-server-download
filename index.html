@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <title>下载mc服务端</title>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+    <style>
+        .table11_6 table {
+            width:100%;
+            margin:15px 0;
+            border:0;
+        }
+        .table11_6 th {
+            background-color:#96C7ED;
+            color:#000000
+        }
+        .table11_6,.table11_6 th,.table11_6 td {
+            font-size:0.95em;
+            text-align:center;
+            padding:4px;
+            border-collapse:collapse;
+        }
+        .table11_6 th,.table11_6 td {
+            border: 1px solid #73b4e7;
+            border-width:1px 0 1px 0;
+            border:2px inset #ffffff;
+        }
+        .table11_6 tr {
+            border: 1px solid #ffffff;
+        }
+        .table11_6 tr:nth-child(odd){
+            background-color:#dcecf9;
+        }
+        .table11_6 tr:nth-child(even){
+            background-color:#ffffff;
+        }
+    </style>
+</head>
+<body>
+    <table class="table11_6" style="margin: 0 auto;">
+        <tbody>
+            <tr>
+                <th>正式版</th><th>快照版</th>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td height="100" valign="top">
+                    <table class="table11_6">
+                        <tr>
+                            <th>版本</th><th>更新时间</th><th>下载</th>
+                        </tr>
+                        <tbody id="serverlist_release">
+                        </tbody>
+                    </table>
+                </td>
+                <td height="100" valign="top">
+                    <table class="table11_6">
+                        <tr>
+                            <th>版本</th><th>更新时间</th><th>下载</th>
+                        </tr>
+                        <tbody id="serverlist_snapshot">
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
