@@ -32,7 +32,7 @@ $.ajax( {
             if(data.versions[i].type == "release"){
                 str1 = "<tr>" + 
                 "<td>"+data.versions[i].id + "</td>" +
-                "<td>"+data.versions[i].time + "</td>" +
+                "<td>"+data.versions[i].releaseTime + "</td>" +
                 // "<td>"+data.versions[i].url + "</td>" +
                 "<td><input type=\"button\" value=\"下载\" onclick=\"download('" + data.versions[i].url + "')\"></td>" +
                 "</tr>";
@@ -40,7 +40,7 @@ $.ajax( {
             }else{
                 str2 = "<tr>" + 
                 "<td>"+data.versions[i].id + "</td>" +
-                "<td>"+data.versions[i].time + "</td>" +
+                "<td>"+data.versions[i].releaseTime + "</td>" +
                 // "<td>"+data.versions[i].url + "</td>" +
                 "<td><input type=\"button\" value=\"下载\" onclick=\"download('" + data.versions[i].url + "')\"></td>" +
                 "</tr>";
